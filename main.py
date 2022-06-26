@@ -152,7 +152,7 @@ def running_allfunction_deduplication():
         loadData_to_stagging ()
         delete_conflict_dest_stagging ()
         insert_dest_from_stagging ()
-        # drop_stagging ()
+        drop_stagging ()
 
     except:
         print( 'Error ingestion covering data in : \n', sys.exc_info() )
