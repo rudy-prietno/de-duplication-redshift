@@ -1,7 +1,7 @@
 import psycopg2
 import sys
 from datetime import datetime, timedelta
-from trx_order_detail_query import query_pararelize_services
+from preparation_query import query_pararelize_services
 import sys
 import time
 
